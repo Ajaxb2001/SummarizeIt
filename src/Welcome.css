@@ -1,0 +1,45 @@
+/* src/WelcomePage.css */
+.welcome-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .welcome-content {
+    max-width: 800px;
+  }
+  
+  .welcome-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .welcome-content p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .get-started-button {
+    background-color: #fff;
+    color: #ff7e5f;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .get-started-button:hover {
+    background-color: #ff7e5f;
+    color: white;
+  }
+  
